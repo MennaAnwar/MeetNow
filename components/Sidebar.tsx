@@ -24,8 +24,7 @@ const Sidebar = () => {
     <section className="sticky left-0 top-0 flex w-fit flex-col h-screen justify-between bg-dark-1 p-6 pt-28 text-white max-sm:hidden lg:w-[264px]">
       <div className="flex flex-1 flex-col gap-6">
         {items.map((link) => {
-          const isActive =
-            pathName === link.route || pathName.startsWith(link.route);
+          const isActive = pathName === link.route;
           return (
             <Link
               key={link.label}
