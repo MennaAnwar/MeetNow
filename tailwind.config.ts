@@ -24,10 +24,19 @@ const config = {
           2: "#161925",
         },
         blue: {
-          1: "#2784fa",
+          1: "#5e7cae",
         },
         sky: {
           1: "#C90DFF",
+        },
+        pink: {
+          1: "#d57482",
+        },
+        cyan: {
+          1: "#0097a6",
+        },
+        grey: {
+          1: "#81898a",
         },
       },
       backgroundImage: {
