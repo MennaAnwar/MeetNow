@@ -28,7 +28,7 @@
 This project replicates Zoom, a widely used video conferencing tool. It enables users to securely log in, create meetings and access various meeting functionalities such as recording, screen sharing, and managing participants.
 
 
-Demo Link: [Meet Now]([https://meet-7i4gcvzos-mennaanwars-projects.vercel.app/](https://meet-now-ruby.vercel.app/sign-in?redirect_url=https%3A%2F%2Fmeet-now-ruby.vercel.app%2F)
+Demo Link: [Meet Now](https://meet-now-ruby.vercel.app/sign-in?redirect_url=https%3A%2F%2Fmeet-now-ruby.vercel.app%2F)
 
 
 
