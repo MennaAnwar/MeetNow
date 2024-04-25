@@ -114,3 +114,12 @@
     width: 100%;
   }
 }
+
+.str-video__video-preview-container {
+  display: flex;
+  justify-content: center;
+}
+
+.str-video__video-preview-container video {
+  max-width: 75%
+}

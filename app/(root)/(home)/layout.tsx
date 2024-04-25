@@ -4,6 +4,9 @@ import Sidebar from '@/components/Sidebar';
 export const metadata: Metadata = {
   title: 'Meet Now',
   description: 'A workspace for your team, powered by Stream Chat and Clerk.',
+    icons:{
+    icon:"/icons/Logo.png"
+  }
 };
 
 const RootLayout = ({ children }: Readonly<{children: ReactNode}>) => {
