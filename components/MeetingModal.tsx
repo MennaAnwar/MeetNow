@@ -52,14 +52,13 @@ const MeetingModal = ({
           </h2>
           {children}
 
-          {buttonText &&
-            <Button
-              className={
-                "bg-blue-1 focus-visible:ring-0 focus-visible:ring-offset-0"
-              }
-              onClick={handleClick}
-            >
-              {buttonIcon && (
+          <Button
+            className={
+              "bg-blue-1 focus-visible:ring-0 focus-visible:ring-offset-0"
+            }
+            onClick={handleClick}
+          >
+            {buttonIcon && (
               <Image
                 src={buttonIcon}
                 alt="button icon"
@@ -67,10 +66,9 @@ const MeetingModal = ({
                 height={13}
               />
             )}
-              &nbsp;
-              {buttonText || "Schedule Meeting"}
+            &nbsp;
+            {buttonText || "Schedule Meeting"}
           </Button>
-          }
         </div>
       </DialogContent>
     </Dialog>
